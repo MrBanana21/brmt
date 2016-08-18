@@ -6,6 +6,7 @@ SSI:
 195          | Quagsire          | 
 464          | Rhyperior         | 
 184          | Azumarill         | 
+721          | Volcanion         | 
 472          | Gliscor           | 
 485          | Heatran           | 
 645-s        | Landorus-Therian  | 
