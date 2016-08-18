@@ -56,7 +56,7 @@
 <body>
 
 <!--Page Title-->
-<h2 style="display: inline-block; margin-right:.25em">OU Weakness Checker (BreakMyTeam)</h2>
+<h2 style="display: inline-block; margin-right:.25em">OU Checar Debilidades (BreakMyTeam)</h2>
 <a target="_blank" style="font-size:10pt" href="About.html">
 	About this tool
 </a>
@@ -78,8 +78,8 @@
 			<option value="PUcc.txt">PU Checks Compendium by Anty</option>
 			<option value="LCcc.txt">LC Checks Compendium by Trash</option>
 		</select>
-		<button class="btn-xs" style="font-size:8pt" onclick="ShowPopout('tools', this);">edit</button>
-		<button class="btn-xs" style="font-size:8pt" onclick="ccSelector.onchange();">reload and discard changes</button>
+		<button style="border: 1px solid #000 ; background: #FFF0F5 ; box-shadow: 0px 1px 1px rgba(255 , 255 , 255 , 0.3) inset ; color: #FF69B4 ; border-radius: 4px ; margin: 1px 0px ; padding: 2px 4px"; class="btn-xs" style="font-size:8pt" onclick="ShowPopout('tools', this);">edit</button>
+		<button style="border: 1px solid #000 ; background: #FFF0F5 ; box-shadow: 0px 1px 1px rgba(255 , 255 , 255 , 0.3) inset ; color: #FF69B4 ; border-radius: 4px ; margin: 1px 0px ; padding: 2px 4px"; class="btn-xs" style="font-size:8pt" onclick="ccSelector.onchange();">reload and discard changes</button>
 	</div>
 </span>
 
@@ -155,7 +155,7 @@
 <!-- textarea for importing compendiums -->
 <div ID="importcompendium" class="infopopout" onmouseleave="this.style.display = 'none';">
 	<textarea ID="cgfTextarea" style="width:90vw; height:60vh"></textarea>
-	<button onclick="SetChecksCompendium( this.previousElementSibling.value, true );">import</button>
+	<button style="border: 1px solid #000 ; background: #FFF0F5 ; box-shadow: 0px 1px 1px rgba(255 , 255 , 255 , 0.3) inset ; color: #FF69B4 ; border-radius: 4px ; margin: 1px 0px ; padding: 2px 4px"; onclick="SetChecksCompendium( this.previousElementSibling.value, true );">import</button>
 </div>
 <!-- /Popout page elements -->
 
